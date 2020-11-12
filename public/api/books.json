@@ -1,0 +1,26 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "image": "/assets/images/principito.jpg",
+      "title": "Little Prince",
+      "author": 2,
+      "price": {
+        "original": 199.95,
+        "current": 99.98
+      },
+      "synopsis": "The Little Prince, French Le Petit Prince, fable and modern classic by French aviator and writer Antoine de Saint-Exupéry that was published with his own illustrations in French as Le Petit Prince in 1943. The simple tale tells the story of a child, the little prince, who travels the universe gaining wisdom. The novella has been translated into hundreds of languages and has sold some 200 million copies worldwide, making it one of the best-selling books in publishing history."
+    },
+    {
+      "id": "2",
+      "image": "/assets/images/moby-dick.jpg",
+      "title": "Moby Dick",
+      "author": 1,
+      "price": {
+        "original": 109.95,
+        "current": 89.98
+      },
+      "synopsis": "Moby Dick, novel by Herman Melville, published in London in October 1851 as The Whale and a month later in New York City as Moby-Dick; or, The Whale. It is dedicated to Nathaniel Hawthorne. Moby Dick is generally regarded as Melville’s magnum opus and one of the greatest American novels"
+    }
+  ]
+}

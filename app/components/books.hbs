@@ -1,0 +1,14 @@
+  <label>
+    <span>What are you looking for?</span>
+     <Input @value={{this.query}}/>
+  </label>  
+
+ <Books::Filter @books={{@books}} @query={{this.query}} as |results|>
+  {{#each results as |book|}}
+   <Book @book={{book}} />
+  {{/each}}
+ </Books::Filter> 
+  
+
+    
+  

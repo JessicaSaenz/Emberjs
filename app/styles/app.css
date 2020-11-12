@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+/*Home*/
+
+/**
+ * Body Container
+ */
+
+.container {
+  max-width: 1024px;
+  min-height: 100vh;
+  background: #f9f9f9;
+  margin: 0 auto;
+}
+.menu {
+  height: 4em;
+  background-color: #677ae4;
+  background-color: #05526A;
+  background-color: #5598e4;
+}
+
+.menu h1 {
+  position: relative;
+  padding: 5px 0 0 8px;
+  color: #f9f9f9;
+  font-size: 1.8em;
+  font-style: italic;
+}
+
+.menu a,
+.menu .links {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu a:hover,
+.menu a.active {
+  opacity: 1;
+}
+
+.menu .links {
+  padding: 0 21px;
+}
+
+.menu .links a {
+  position: relative;
+  bottom: 5px;
+}
+
+.cart-link {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: #fff;
+  color: grey;
+  width: 65px;
+  height: 65px;
+  font-size: 32px;
+  border-radius: 50%;
+
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.cart-count {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.cart-item cart-item-thumbnail{
+    width: 200px;
+    height: 150px;
+    text-align: center;  
+}
+
+.cart-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*Product*/
+.product-image {
+  background: linear-gradient(to top, #2193b0, #6dd5ed);
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.product-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-details {
+  padding: 24px 32px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product {
+  width: 500px;
+  height: 240px;
+  margin: 0 auto 50px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: -20px 10px 30px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: #333;
+  border-radius: 10px;
+  &:hover {
+    text-decoration: none;
+    color: #333;
+  }
+}
+
+.item-details-page {
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0;
+}

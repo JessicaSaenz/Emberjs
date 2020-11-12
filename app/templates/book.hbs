@@ -1,0 +1,18 @@
+<GeneralContainer>
+  <div class="product item-details-page {{if this.isZoomed 'is-zoomed'}}">
+    <Book::Image 
+      @src={{this.model.image}}
+      @toggleZoom={{this.toggleZoom}}
+      />
+    <Book::Details
+      @title={{this.model.title}}
+      @price={{this.model.price}}
+      @author={{this.model.author}}
+      @image={{this.model.image}}
+     />
+  </div>
+  <h5 class="mt-5">Synopsis</h5>
+  <p>
+    {{this.model.synopsis}}
+  </p>
+</GeneralContainer>

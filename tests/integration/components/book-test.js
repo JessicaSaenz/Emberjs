@@ -3,23 +3,23 @@ import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 
-module('Integration | Component | books', function(hooks) {
+module('Integration | Component | book', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function(assert) {
     // Set any properties with this.set('myProperty', 'value');
     // Handle any actions with this.set('myAction', function(val) { ... });
 
-    await render(hbs`<Books />`);
+    await render(hbs`<Book />`);
 
     assert.equal(this.element.textContent.trim(), '');
 
     // Template block usage:
     await render(hbs`
-      <Books>
+      <Book>
         template block text
-      </Books>
-    `);   
+      </Book>
+    `);
 
     assert.equal(this.element.textContent.trim(), 'template block text');
     await this.pauseTest();

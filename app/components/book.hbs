@@ -1,6 +1,7 @@
 <LinkTo @route="book" @model="{{@book.id}}" class="product">
   <Book::Image @src={{@book.image}}/>
   <Book::Details
+    @isDetails={{true}}
     @title= {{@book.title}}
     @author= {{@book.author}}
     @price= {{@book.price}}
